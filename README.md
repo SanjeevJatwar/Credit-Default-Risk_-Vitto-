@@ -2,18 +2,18 @@
 
 This project performs an end-to-end analysis of credit card default behavior for a simulated credit risk team at **Vitto**. Using the UCI Credit Card Default dataset (Taiwan, 2005), we identify predictive signals and build machine learning models to classify high-risk borrowers.
 
-## 🚀 Setup Guide
+## Setup Guide
 
-1. **Environment Setup**: Ensure you have Python 3.8+ installed.
+1. **Environment Setup**: Ensure that Python 3.8+ is been installed.
 2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run Analysis**: Open `train.ipynb` or `intro.ipynb` in VS Code and run all cells to reproduce the results.
+3. **Run Analysis**: Open `train.ipynb` in VS Code and run all cells to reproduce the results.
 
-## 📊 Dataset Source
+## Dataset Source
 
-- **Source**: [UCI Machine Learning Repository - Default of Credit Card Clients](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
+- **Source**: [UCI Machine Learning Repository - Default of Credit Card Clients](Here, its present inside data).
 - **Scale**: 30,000 records, 25 variables.
 - **Timeframe**: April 2005 – September 2005.
 
@@ -25,7 +25,7 @@ This project performs an end-to-end analysis of credit card default behavior for
     - `AVG_UTIL_RATE`: Average credit utilization over 6 months.
     - `AVG_PAY_RATIO`: Consistency of bill repayment.
     - `TOTAL_DELAY_MONTHS`: Cumulative months of delinquency.
-- **Modeling**: Evaluated Logistic Regression (baseline) and Tree-based models (XGBoost/Random Forest).
+- **Modeling**: Evaluated Logistic Regression (baseline) and Tree-based models (XGBClassifier).
 - **Evaluation**: Used Stratified 5-fold Cross-Validation with focus on AUC-ROC and Recall to capture high-risk defaults effectively.
 
 ## 📋 Feature List
